@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FCC-random-quote-machine/static/css/main.b36e2f87.css",
+    "main.js": "/FCC-random-quote-machine/static/js/main.e3ac0097.js",
+    "index.html": "/FCC-random-quote-machine/index.html",
+    "main.b36e2f87.css.map": "/FCC-random-quote-machine/static/css/main.b36e2f87.css.map",
+    "main.e3ac0097.js.map": "/FCC-random-quote-machine/static/js/main.e3ac0097.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b36e2f87.css",
+    "static/js/main.e3ac0097.js"
+  ]
+}
