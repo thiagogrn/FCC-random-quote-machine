@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+:root {
+    --main-color: #C70039;
+    --main-color-hover: #DA5757;
+    --white: #EBEBEB;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--main-color);
+}
+
+#quote-box {
+    width: 60%;
+    padding: 2.5rem;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.quote {
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.quote::before {
+    font-size: 2em;
+    content: '“';
+    color: var(--main-color);
+}
+
+#author {
+    margin-top: 2rem;
+    font-size: 1.8em;
+    text-align: right;
+}
+
+.click-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+}
+
+.fa-square-twitter {
+    margin-right: 1rem;
+    font-size: 4rem;
+    color: var(--main-color);
+}
+
+.fa-square-twitter:hover {
+    color: var(--main-color-hover);
+}
+
+.post {
+    font-size: 1.5em;
+}
+
+#new-quote {
+    padding: 1.5rem;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    background-color: var(--main-color);
+}
+
+#new-quote:hover {
+    cursor: pointer;
+    background-color: var(--main-color-hover);
+}
+
+@media (max-width: 750px) {
+    #quote-box {
+        width: 80%;
+    }
+
+    .quote {
+        font-size: 2.4em;
+    }
+
+    #author {
+        font-size: 1.5em;
+    }
+
+    .post {
+        font-size: 1.2em;
+    }
+
+    .fa-square-twitter {
+        margin-right: 0.5rem;
+    }
+
+    #new-quote {
+        font-size: 1.2em;
+    }
+}
